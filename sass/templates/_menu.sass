@@ -1,0 +1,53 @@
+.menu
+    padding-top: 65px
+    padding-bottom: 65px
+    background: url('../img/fire.png') no-repeat center / cover
+    &__title
+        font-weight: 700
+        font-size: 64px
+        color: $gold
+        text-align: center
+        margin-bottom: 65px
+    &__cards
+        display: flex
+        justify-content: center
+        align-items: center
+    &__card
+        border: 1px solid $white
+        border-radius: 25px
+        text-align: center
+        padding: 22px 22px 26px 22px
+        margin-right: 75px
+        background: $black
+        &:last-child
+            margin-right: 0
+        &--title
+            font-style: normal
+            font-weight: 700
+            font-size: 28px
+            color: $black
+            text-shadow: $gold 1px 0px, $gold 1px 1px, $gold 0px 1px, $gold -1px 1px, $gold -1px 0px, $gold -1px -1px, $gold 0px -1px, $gold 1px -1px
+            margin-top: 20px
+            margin-bottom: 20px
+        &--text 
+            font-style: normal
+            font-weight: 700
+            font-size: 16px
+            line-height: 28px
+            color: $white
+            max-width: 260px
+            width: 100%
+            margin-bottom: 40px
+        &--button 
+            font-style: normal
+            font-weight: 700
+            font-size: 16px
+            color: $white
+            padding: 10px 25px 
+            border-radius: 25px
+            background-color: $gold
+            margin-left: 75px
+            cursor: pointer
+            &:hover
+                transform: scale(1.1)
+                transition: 0.3s
